@@ -13,6 +13,7 @@
 		C6292C47286AF20E0043D2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6292C45286AF20E0043D2CC /* Main.storyboard */; };
 		C6292C49286AF20F0043D2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6292C48286AF20F0043D2CC /* Assets.xcassets */; };
 		C6292C4C286AF20F0043D2CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6292C4A286AF20F0043D2CC /* LaunchScreen.storyboard */; };
+		C6292C56286AF2620043D2CC /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6292C55286AF2620043D2CC /* RoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C6292C48286AF20F0043D2CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6292C4B286AF20F0043D2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6292C4D286AF20F0043D2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6292C55286AF2620043D2CC /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C6292C3F286AF20E0043D2CC /* AppDelegate.swift */,
 				C6292C41286AF20E0043D2CC /* SceneDelegate.swift */,
 				C6292C43286AF20E0043D2CC /* ViewController.swift */,
+				C6292C55286AF2620043D2CC /* RoundView.swift */,
 				C6292C45286AF20E0043D2CC /* Main.storyboard */,
 				C6292C48286AF20F0043D2CC /* Assets.xcassets */,
 				C6292C4A286AF20F0043D2CC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				C6292C44286AF20E0043D2CC /* ViewController.swift in Sources */,
 				C6292C40286AF20E0043D2CC /* AppDelegate.swift in Sources */,
 				C6292C42286AF20E0043D2CC /* SceneDelegate.swift in Sources */,
+				C6292C56286AF2620043D2CC /* RoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
